@@ -11,3 +11,4 @@ function mul(a, b){
 function div(a, b){
     return a/b;
 }
+console.log(add(3,4));
