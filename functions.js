@@ -14,5 +14,17 @@ function mul(a, b){
 function div(a, b){
     return a/b;
 }
-console.log(add(3,4));
+
+
+
+function subArray (a) {
+    var subResult = 0;
+    for (var c = 0; c<a.length; c++){
+        sub -= a[c];
+    }
+    return subResult;
+}
+
+var num = [1,2,3];
+console.log(addArray(num));
 
