@@ -4,7 +4,7 @@ function add(Addarray){
     var result = 0;
     for(var n = 0;Addarray.length < n; n += 1 ){
         result += Addarray[n];
-    };
+    }
     return result;
 }
 
@@ -29,3 +29,15 @@ function div(a, b){
 }
 console.log(add(3,4,3,4,45,5));
 console.log(AddMyArray(3,4,3,4,45,5));
+
+
+function subArray (a) {
+    var subResult = 0;
+    for (var c = 0; c<a.length; c++){
+        sub -= a[c];
+    }
+    return subResult;
+}
+
+var num = [1,2,3];
+console.log(addArray(num));
