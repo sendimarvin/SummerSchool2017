@@ -32,12 +32,13 @@ console.log(AddMyArray(3,4,3,4,45,5));
 
 
 function subArray (a) {
-    var subResult = 0;
-    for (var c = 0; c<a.length; c++){
-        sub -= a[c];
+    var subResult = a[0];
+    for (var c = 1; c<a.length; c++){
+        subResult -= a[c];
     }
     return subResult;
 }
 
-var num = [1,2,3];
-console.log(addArray(num));
+var num = [2,1,2];
+console.log("subtracted my array");
+console.log(subArray(num));
